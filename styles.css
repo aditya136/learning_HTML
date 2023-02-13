@@ -1,50 +1,71 @@
 body{
-    background-color: burlywood;
+   background-color: burlywood;
 }
 
 .buy_now{
-    width: 133px;
-    height: 24px;
-    color:white;
-    background-color: red;
-    font-size: 114%;
-    color: blue;
-    font-weight: bold;
+   width: 133px;
+   height: 30px;
+   color:white;
+   background-color: rgb(212 152 19);
+   font-size: 114%;
+   color: #503202;
+   font-weight: bold;
+   box-shadow: 0 0 3px 3px rgb(212, 152, 19);
+   border-color: #252222;
+   border-radius: 5px;
+   text-align: center;
+   position: fixed;
+   top: 86%;
+   right: 89%;
 }
 
 .add_to_cart{
-   width: 160px;
-   height: 24px;
-   color: white;
-   background-color: blue;
-   font-size: 124%;
-   border-color: black;
-   color: red;
-   font-weight: bold;   
+  width: 160px;
+  height: 30px;
+  color: white;
+  background-color: rgb(212 152 19);;
+  font-size: 124%;
+  border-color: #252222;
+  color: #634007;
+  font-weight: bold; 
+  box-shadow: 0 0 3px 3px rgb(212, 152, 19);
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  top: 86%;
+  right: 77%;
 }
 
+
 img{
-   width: 440px ;
-   height: 610px;
+  width: 440px ;
+  height: 610px;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 6px rgb(212, 152, 19);
 }
 
 div h1 {
-    width: 100px;
-    height: 100px;
-    font-size: 31px;
- }
- div h2{
-    width: 70px;
-    height: 70px;
-    font-size:23px ;
- }
- div h3{
-    width: 100px;
-    height: 100px;
-    font-size: 22px;
- }
- div h4{
-    width: 70px;
-    height: 70px;
-    font-size: 17px;
- }
+   font-size: 45px;
+   position: fixed;
+   right: 53%;
+   bottom: 80%;
+}
+div h2{
+   font-size: 33px;
+   position: fixed;
+   right: 57%;
+   bottom: 75%;
+}
+
+div h3{
+   font-size: 22px;
+   position: fixed;
+   right: 37%;
+   bottom: 76.5%;
+}
+div h4{
+   font-size: 17px;
+   position: fixed;
+   right: 38%;
+   bottom: 69%;
+}
